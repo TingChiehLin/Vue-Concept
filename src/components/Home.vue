@@ -7,6 +7,8 @@
 
   <click-counter></click-counter>
   <MouseOver/>
+  <Button title="Test" href="./product"/>
+  <Button title="Test" href="./shop"/>
 </template>
 
 <script>
@@ -14,11 +16,13 @@
 import useMessage from '../hook/message';
 import MouseOver from "./MouseOver";
 import { inject } from 'vue';
+import Button from './Button';
 
 export default {
   name: "Home",
   components: {
-    MouseOver
+    MouseOver,
+    Button
   },
   created() {
     console.log('Hey from the component.')
