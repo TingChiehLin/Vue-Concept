@@ -1,5 +1,4 @@
 <template>
-  <div>Home</div>
   <active-user :username="user.name" :userage="user.age"></active-user>
   <user-data @set-data="setUserData"></user-data>
 </template>
@@ -30,6 +29,9 @@ export default {
         age: +age
       };
     }
+  },
+  created() {
+
   }
 }
 </script>

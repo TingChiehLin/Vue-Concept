@@ -21,7 +21,12 @@
 
 <script>
 export default {
-  name: "NavigationBar"
+  name: "NavigationBar",
+  data() {
+    return {
+
+    }
+  }
 }
 </script>
 

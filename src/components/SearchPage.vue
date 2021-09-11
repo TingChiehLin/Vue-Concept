@@ -39,6 +39,9 @@ export default {
     setSearchData(keyword) {
       this.keyword = keyword;
     }
+  },
+  created() {
+    console.log('query: ',this.$route.query)
   }
 }
 </script>
